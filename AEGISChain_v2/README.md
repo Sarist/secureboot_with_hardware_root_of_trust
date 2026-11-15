@@ -8,7 +8,7 @@ This ESP32-WROOM proof of concept has **two separate applications**: a factory A
 
 The original working `../prototype/` and original archives are preserved. This directory is a deliberate v2 upgrade with a separate API and database; v1 enrollments do not automatically authorize v2.
 
-## Status — updated 2026-09-24
+## Status
 
 - Implemented: separate gate/payload images, deterministic image measurement, version policy, one-use handoff record, HTTPS challenge-response, explicit software/ATECC signer selection, modular temperature/voltage checks, audit evidence, enrollment and build/flash tools.
 - Verified here: host tests, actual shared C++ policy/response/encoding tests, loopback HTTPS tests and Arduino compilation. See validation details.
